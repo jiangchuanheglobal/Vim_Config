@@ -1,8 +1,11 @@
 
-
+" ///////////////////////////////////////
 " ~/.vim/colors
-" =====================
+" ///////////////////////////////////////
+
+" ///////////////////////////////////////
 " ~/.vim/plugin
+" ///////////////////////////////////////
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -22,10 +25,13 @@ Bundle 'majutsushi/tagbar'
 
 call vundle#end()            
 
+" ///////////////////////////////////////
 " ~/.vim/ftdetect
+" ///////////////////////////////////////
 
-" =================
+" ///////////////////////////////////////
 " ~/.vim/ftplugin
+" ///////////////////////////////////////
 filetype plugin on
 
 
@@ -34,12 +40,25 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" ///////////////////////////////////////
 " ~/.vim/compiler
+" ///////////////////////////////////////
+
+
+
+" ///////////////////////////////////////
 " ~/.vim/after
-" =================
+" ///////////////////////////////////////
+
+
+" ///////////////////////////////////////
 " ~/.vim/autoload
-source ./keybind.vim
+" ///////////////////////////////////////
+source ~/.vim/keybind.vim
+
+" ///////////////////////////////////////
 " ~/.vim/doc
+" ///////////////////////////////////////
 
 set nu
 
@@ -63,22 +82,22 @@ set nu
 "se noignorecase
 "se wrapscan
 "se magic
-"se incsearch  
+se incsearch  
 "se hidden
-""se autoindent
+"se autoindent
 "se ai
 "se smartindent
 "se ruler
-"se laststatus=2
-"se nobackup                 
-"se noswapfile              
+se laststatus=2
+se nobackup                 
+se noswapfile              
 "se expandtab
 "se tabstop=4
 "se shiftwidth=4
 "se softtabstop=4
 "se encoding=utf-8
-"se fenc=utf-8
-"se nu
+se fenc=utf-8
+se nu
 
 "" c++ indentation
 "" set cinoptions+=g1
