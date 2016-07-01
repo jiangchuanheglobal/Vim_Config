@@ -16,3 +16,6 @@ Bundle 'majutsushi/tagbar'
 " Bundle 'vim-scripts/Auto-Pairs'
 
 call vundle#end()            
+
+" ///////////////////////////////////////
+source $HOME/.vim/ctrlp.vim
