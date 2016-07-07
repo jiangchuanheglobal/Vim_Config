@@ -11,7 +11,7 @@ if executable('ag')
     "let g:ctrlp_use_caching = 0
 endif
 
-set wildignore+=*/tmp/*,*/bak/*,*/bak*/*,*/build/*,*/install/*,*.o,*.so,*.sql,*.swp,*.zip " MacOSX/Linux
+"set wildignore+=*/tmp/*,*/bak/*,*/bak*/*,*/build/*,*/install/*,*.o,*.so,*.sql,*.swp,*.zip " MacOSX/Linux
 let g:ctrlp_clear_cache_on_exit = 1
 let g:ctrlp_max_depth = 40
 let g:ctrlp_max_files=0
