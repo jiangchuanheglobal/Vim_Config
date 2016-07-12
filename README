@@ -1,1 +1,4 @@
 vim config
+
+run ./install.sh to deploy configuration, then run :BundleInstall in vim
+to get plugins.
