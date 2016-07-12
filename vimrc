@@ -38,56 +38,12 @@ set expandtab
 " ///////////////////////////////////////
 " ~/.vim/autoload
 " ///////////////////////////////////////
-source ~/.vim/keybind.vim
+
 
 " ///////////////////////////////////////
 " ~/.vim/doc
 " ///////////////////////////////////////
 
-set nu
-
-
-"set nocompatible
-"filetype off   
-
-""filetype plugin indent on   
-
-
-"" misc
-"syntax enable                
-"syntax on 
-
-""filetype indent on           
-""filetype plugin on          
-
-"se foldlevel=100            
-"se hlsearch
-"se smartcase
-"se noignorecase
-"se wrapscan
-"se magic
-se incsearch  
-se ignorecase
-"se hidden
-"se autoindent
-"se ai
-"se smartindent
-"se ruler
-se laststatus=2
-se nobackup                 
-se noswapfile              
-"se expandtab
-"se tabstop=4
-"se shiftwidth=4
-"se softtabstop=4
-"se encoding=utf-8
-se fenc=utf-8
-se nu
-
-"" c++ indentation
-"" set cinoptions+=g1
-
-"let g:ctrlp_working_path_mode = ''
-"let g:cpp_class_scope_highlight = 1
-
-
+" Apply to all vim opened file
+source ~/.vim/base.vim
+source ~/.vim/keybind.vim
