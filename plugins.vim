@@ -13,6 +13,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'majutsushi/tagbar' 
 Plugin 'vim-scripts/a.vim'
+Plugin 'tpope/vim-dispatch'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
