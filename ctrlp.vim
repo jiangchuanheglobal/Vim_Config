@@ -1,4 +1,5 @@
-let g:ctrlp_clear_cache_on_exit = 1
+"let g:ctrlp_clear_cache_on_exit = 1
+let g:ctrlp_cmd = 'CtrlPMixed'
 let g:ctrlp_max_depth = 40
 let g:ctrlp_max_files=0
 
