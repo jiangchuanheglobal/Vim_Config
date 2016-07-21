@@ -20,6 +20,7 @@ filetype plugin on
 " ///////////////////////////////////////
 " ~/.vim/indent
 " ///////////////////////////////////////
+au BufReadPost,BufNewFile SConstruct set filetype=python
 filetype plugin indent on
 
 " ///////////////////////////////////////
@@ -45,3 +46,4 @@ filetype plugin indent on
 " Apply to all vim opened file
 source ~/.vim/base.vim
 source ~/.vim/keybind.vim
+
