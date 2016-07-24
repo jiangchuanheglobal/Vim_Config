@@ -14,6 +14,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'majutsushi/tagbar' 
 Plugin 'vim-scripts/a.vim'
 Plugin 'tpope/vim-dispatch'
+Plugin 'hynek/vim-python-pep8-indent'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
