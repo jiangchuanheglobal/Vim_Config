@@ -77,8 +77,11 @@ function! GoogleCppIndent()
 endfunction
 
 setlocal shiftwidth=2
+" Number of spaces that a <Tab> in the file counts for
 setlocal tabstop=2
+" Number of spaces that a <Tab> counts for while performing editing operations
 setlocal softtabstop=2
+" In Insert mode: Use the appropriate number of spaces to insert a <Tab>
 setlocal expandtab
 setlocal textwidth=80
 setlocal wrap
