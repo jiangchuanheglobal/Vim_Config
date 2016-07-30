@@ -3,7 +3,6 @@ se nocompatible
 " search config
 se hlsearch
 se smartcase
-se ignorecase
 se wrapscan
 se incsearch  
 
