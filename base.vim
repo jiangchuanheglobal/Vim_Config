@@ -1,3 +1,5 @@
+se nocompatible
+
 " search config
 se hlsearch
 se smartcase
@@ -19,8 +21,6 @@ se noswapfile
 "se softtabstop=4
 "se encoding=utf-8
 se fenc=utf-8
+se t_Co=256
 se nu
 syntax on
-
-"" c++ indentation
-"" set cinoptions+=g1
