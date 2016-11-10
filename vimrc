@@ -1,3 +1,8 @@
+" ///////////////////////////////////////
+" Apply to all vim opened file
+" ///////////////////////////////////////
+source ~/.vim/base.vim
+source ~/.vim/keybind.vim
 
 " ///////////////////////////////////////
 " ~/.vim/colors
@@ -42,7 +47,4 @@ filetype plugin indent on
 " ~/.vim/doc
 " ///////////////////////////////////////
 
-" Apply to all vim opened file
-source ~/.vim/base.vim
-source ~/.vim/keybind.vim
 

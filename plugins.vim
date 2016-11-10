@@ -15,7 +15,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-scripts/a.vim'
 Plugin 'tpope/vim-dispatch'
 Plugin 'hynek/vim-python-pep8-indent'
-Plugin 'vim-airline/vim-airline'
+Plugin 'rhysd/vim-clang-format'
+" Plugin 'vim-airline/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -32,3 +33,9 @@ filetype plugin indent on    " required
 
 " ///////////////////////////////////////
 source $HOME/.vim/ctrlp.vim
+source $HOME/.vim/clangfmt.vim
+
+" ///////////////////////////////////////
+nmap <Leader>1 :NERDTreeToggle<CR>
+nmap <Leader>2 :TagbarToggle<CR>
+

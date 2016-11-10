@@ -5,21 +5,27 @@ se hlsearch
 se smartcase
 se wrapscan
 se incsearch  
+se magic
 
-"se hidden
-"se autoindent
-"se ai
-"se smartindent
-"se ruler
 se laststatus=2
 se nobackup
 se noswapfile
-"se expandtab
-"se tabstop=4
-"se shiftwidth=4
-"se softtabstop=4
-"se encoding=utf-8
+
+" Use spaces for indent or not
+if 1
+    se expandtab
+    se tabstop=4
+    se shiftwidth=4
+    se softtabstop=4
+endif
+"/////////////////
+
+" Encode
+se encoding=utf-8
 se fenc=utf-8
-se t_Co=256
+
+" File/CMD completion
+se wildmenu
+
 se nu
 syntax on
